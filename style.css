@@ -1,0 +1,313 @@
+#nav {
+    background-color: rgb(14, 141, 99);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.nav{
+    text-decoration: none;
+    color: black;
+}
+.nav:hover{
+    background-color: rgb(45, 180, 67);
+   
+}
+
+#logo {
+    height: 60px; 
+    width: auto;  
+}
+li{
+    display: flex;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: xx-large;
+    text-decoration: overline underline;
+}
+#aboutpara{
+       width: 500px;
+       align-items: center;
+       text-align: center;
+       font-size: x-large;
+      margin-left: 24%;
+      
+       
+
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 33%;
+    width: 400px;
+    
+}
+#team{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 43%;
+}
+
+#teamlogo{
+    height: 200px;
+    width: 200px;
+    margin-left: 30%;
+
+}
+#container{
+    background-color: rgb(14, 141, 99);
+    width: 100%;
+   height: 200px;
+
+}
+a{
+    padding: 25px;
+    margin-top: 50px;
+   
+}
+
+
+#bottom{
+    display: flex;
+
+    justify-content: center;
+
+}
+#logobrands{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+
+}
+#copyright{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+ .staff{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 22%;
+    
+ }
+ h3{
+    flex-direction: row;
+   display: inline;
+  justify-content: center;
+  margin-left: 22%;
+  font-size: xx-large;
+  color:rgb(9, 85, 72);
+
+ }
+.staff2{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 22%;
+}
+.services{
+    height:300px ;
+    width: 300px;
+    border-radius:50%;
+   
+    margin-left: 42%;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+ h2 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+@media (max-width: 767px) {
+    #nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #logo {
+        height: 40px;
+    }
+
+    #aboutpara, p {
+      
+        margin-left: 0;
+        width: auto;
+        font-size: large;
+    }
+    #about{
+       margin-top: 110px;
+    }
+    #aboutpara{
+         margin-top: 20px;
+    }
+
+    #teamlogo {
+        height: 150px;
+        width: 150px;
+        margin-left: 0;
+    }
+
+    .staff, .staff2, .services {
+        height: 200px;
+        width: 200px;
+        margin-left: 0;
+        display: block;
+        margin: 10px auto;
+    }
+
+    h3 {
+        font-size: large;
+        margin-left:25%;
+        
+       
+    }
+
+    #container {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    a {
+        padding: 15px;
+        margin-top: 20px;
+         
+    }
+
+    #logobrands {
+        top: 20px;
+    }
+
+    #bottom {
+        flex-direction: column;
+    }
+
+    #copyright {
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #nav {
+        flex-direction: row;
+        height: 60px;
+        padding: 10px;
+    }
+
+    #logo {
+        height: 50px;
+    }
+
+    #aboutpara, p {
+        margin-left: 10%;
+        width: 80%;
+        font-size: medium;
+    }
+
+    #teamlogo {
+        height: 180px;
+        width: 180px;
+        margin-left: 10%;
+    }
+
+    .staff, .staff2, .services {
+        height: 250px;
+        width: 250px;
+     
+    }
+    
+
+    h3 {
+        font-size: x-large;
+       
+        
+    }
+    
+
+    #container {
+        height: 150px;
+    }
+
+    a {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    #logobrands {
+        top: 30px;
+    }
+
+    #bottom {
+        flex-direction: row;
+    }
+
+    #copyright {
+        margin-top: 20px;
+    }
+}
+@media (min-width:500px) and (max-width:631px) {
+    #james{
+        position: absolute;
+        top: 140%;
+        left: 46%;
+       
+    }
+    #sarah{
+        position: absolute;
+        top: 210%;
+        left: 47%;
+    }
+}
+@media (max-width:499px) {
+    #james{
+        position: absolute;
+        top: 140%;
+        left: 46%;
+       
+    }
+    #sarah{
+        position: absolute;
+        top: 210%;
+        left: 47%;
+    }
+}
+@media (min-width:632px) and (max-width:900px){
+    #james{
+        position: absolute;
+        top: 120%;
+        left: 38%;
+       
+    }
+    #sarah{
+        position: absolute;
+        top: 210%;
+        left: 38%;
+}
+}
+
